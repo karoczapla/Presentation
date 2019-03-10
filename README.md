@@ -10,4 +10,4 @@ User can navigate through the app using bottom navigation panel.
 - Third window contains information about author's work experience, including her responsibilities in each of the positions.
 
 The author tried to build everything from scratch.
-Thus, even the bottom navigation panel's icons are made 'by hand' using VectorDrawable technology.
+Thus, even the bottom navigation panel's icons are made manually using VectorDrawable technology.
