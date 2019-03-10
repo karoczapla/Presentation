@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_person"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/title_whoAmI" />
+
+    <item
+        android:id="@+id/navigation_academic"
+        android:icon="@drawable/ic_academic_black_24dp"
+        android:title="@string/title_academic" />
+
+    <item
+        android:id="@+id/navigation_experience"
+        android:icon="@drawable/ic_experience_black_24dp"
+        android:title="@string/title_experience" />
+
+</menu>

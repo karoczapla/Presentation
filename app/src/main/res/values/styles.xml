@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryBlueDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Important" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorDarkBlue</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryBlueDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SemiImportant" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorDarkBlue</item>
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryBlueDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

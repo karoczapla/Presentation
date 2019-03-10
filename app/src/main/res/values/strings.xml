@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Self presentation</string>
+    <string name="title_experience">Experience</string>
+    <string name="title_academic">College</string>
+    <string name="title_whoAmI">Introduction</string>
+    <string name="name">Karolina Czapla</string>
+    <string name="college_name">Wroclaw University of Science and Technology</string>
+    <string name="degree"><b>Degree:</b> Bachelor of Engineering</string>
+    <string name="major"><b>Major:</b> Computer Science</string>
+    <string name="grad_from_to"><b>Start month:</b> October 2015\n<b>Estimated graduation:</b> June 2020</string>
+    <string name="coursesIntro">Courses done:</string>
+    <string name="holdapp"><b>Holdapp</b></string>
+    <string name="holdapp_function"><b>Software Development Intern - Android</b></string>
+    <string name="holdapp_from_to"><b>From:</b> October 2017\n<b>To:</b> December 2017</string>
+    <string name="holdapp_responsibilities"><b>Responsibilities:</b>\n\tDesigned and implemented a personal scheduler that contains multiple views with events and sticky notes. There was possibility of adding picture notes with image compression. Google Maps integration. Database layer in MySQL.</string>
+    <string name="aiesec"><b>AIESEC Wroclaw UT</b></string>
+    <string name="aiesec_function"><b>Team Leader</b></string>
+    <string name="aiesec_from_to"><b>From:</b> October 2018\n<b>To:</b> February 2019</string>
+    <string name="aiesec_description"><b>Responsibilities:</b>\n\tLeading a small team. Supervising volunteering exchanges. Conducting interviews with potential new members. Collaboration with foreign committees.</string>
+
+</resources>

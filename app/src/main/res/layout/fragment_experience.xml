@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorLighterBg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/holdapp"
+            android:text="@string/holdapp"
+            style="@style/Important"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/holdappFunction"
+            android:text="@string/holdapp_function"
+            android:textColor="@color/colorDarkBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/holdapp"/>
+
+        <TextView
+            android:id="@+id/holdappFromTo"
+            android:text="@string/holdapp_from_to"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimaryBlueDark"
+            android:layout_below="@+id/holdappFunction"/>
+
+        <TextView
+            android:id="@+id/holdappResponsibilities"
+            android:text="@string/holdapp_responsibilities"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimaryBlueDark"
+            android:layout_below="@+id/holdappFromTo"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+        <View
+            android:id="@+id/separator1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryBlue"
+            android:layout_below="@+id/holdappResponsibilities"/>
+
+        <TextView
+            android:id="@+id/aiesecLeader"
+            android:text="@string/aiesec"
+            style="@style/Important"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/separator1"/>
+        <TextView
+            android:id="@+id/aiesecLeaderFunction"
+            android:text="@string/aiesec_function"
+            android:textColor="@color/colorDarkBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aiesecLeader"/>
+
+        <TextView
+            android:id="@+id/aiesecLeaderFromTo"
+            android:text="@string/aiesec_from_to"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimaryBlueDark"
+            android:layout_below="@+id/aiesecLeaderFunction"/>
+
+        <TextView
+            android:id="@+id/aiesecLeaderResponsibilities"
+            android:text="@string/aiesec_description"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimaryBlueDark"
+            android:layout_below="@+id/aiesecLeaderFromTo"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    </RelativeLayout>
+</ScrollView>

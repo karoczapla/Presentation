@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLighterBg"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/uniLogo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/college_name"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/pwr_logo" />
+
+            <TextView
+                android:id="@+id/degreeTV"
+                android:text="@string/degree"
+                style="@style/SemiImportant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/uniLogo"/>
+
+            <TextView
+                android:id="@+id/majorTV"
+                android:text="@string/major"
+                style="@style/SemiImportant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/degreeTV"/>
+            <TextView
+                android:id="@+id/grad1"
+                android:textColor="@color/colorPrimaryBlueDark"
+                android:text="@string/grad_from_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/majorTV"/>
+
+            <ExpandableListView
+                android:id="@+id/expandableListView"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/grad1"
+                android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+                android:childDivider="@drawable/child_separator"
+                android:dividerHeight="0.5dp" />
+        </RelativeLayout>
+</ScrollView>
