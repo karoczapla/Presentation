@@ -11,3 +11,9 @@ User can navigate through the app using bottom navigation panel.
 
 The author tried to build everything from scratch.
 Thus, even the bottom navigation panel's icons are made manually using VectorDrawable technology.
+
+Here are some screenshots from the app:
+- ![Introduction](https://github.com/karoczapla/Presentation/tree/master/app/src/main/res/drawable/1.png)
+- ![Education](https://github.com/karoczapla/Presentation/tree/master/app/src/main/res/drawable/2.png)
+- ![Work experience](https://github.com/karoczapla/Presentation/tree/master/app/src/main/res/drawable/3.png)
+
